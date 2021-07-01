@@ -1,0 +1,183 @@
+  # If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+cowsay "👋🏽 Welcome back"
+# Autoload custom functions
+
+# Path to your oh-my-zsh installation.
+export ZSH=~/.oh-my-zsh
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+# Autocomplete plugin
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="mine"
+DISABLE_AUTO_UPDATE="false"
+
+COMPLETION_WAITING_DOTS="true"
+plugins=(git git-prompt zsh-syntax-highlighting zsh-256color)
+
+source $ZSH/oh-my-zsh.sh
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+fi
+
+# Activate direnv on terminal init
+eval "$(direnv hook zsh)"
+
+#######################################################################################################
+#Venv wrappers exports
+
+# export PYTHONPATH="/usr/local/Cellar/python/3.7.5/bin/python3.7:$PYTHONPATH"
+export VIRTUALENVWRAPPER_PYTHON=$(which python3)
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+export WORKON_HOME=~/projects/envs
+# export GOPATH=~/go
+source /usr/local/bin/virtualenvwrapper.sh
+
+#######################################################################################################
+# Custom aliases and commands
+
+#Python stuff
+alias mvnv="mkvirtualenv -p $(which python3)"
+alias wkn="workon"
+alias mvnv2="mkvirtualenv -p $(which python2)"
+alias dvnv="deactivate"
+
+#system aliases
+update-alternatives --config $(which python3)
+alias .="source"
+alias python="$(which python3)"
+alias py="$(which python3)"
+alias bpy="bpython"
+alias v="nvim"
+alias vi="nvim"
+alias rsp="bundle exec rspec"
+alias mdr="mkdir -p"
+alias c="/usr/local/bin/code"
+alias k="kill -9"
+alias rm="trash"
+alias zzz='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+alias z='~/.zshrc'
+alias t='tmux new'
+alias tw='tmux neww'
+alias tx='tmuxinator'
+alias x='exit'
+
+# shortcuts
+alias os="cd /Users/edwardkaranja/projects/openSource"
+alias pp="cd /Users/edwardkaranja/projects/personalProjects"
+alias kk="cd /Users/edwardkaranja/Projects/work/kwara"
+alias tut="cd /Users/edwardkaranja/Projects/tuts"
+
+#git aliases
+alias gi="git init"
+alias gb="git branch"
+alias gap="git add -p"
+alias gp="ggpush"
+alias gl="git pull"
+alias glo="ggpull"
+alias gfo="ggfetch"
+alias glg="git log --oneline"
+alias gmm="git merge main"
+alias gcm="gco main"
+alias gmd="git merge develop"
+
+# rails stuff
+alias b="bundle"
+alias be="bundle exec"
+alias rg="bundle exec rails g"
+alias rd="bundle exec rails d"
+alias rgc="bundle exec rails g controller"
+alias rdc="bundle exec rails d controller"
+alias rgm="bundle exec rails g model"
+alias rdm="bundle exec rails d model"
+alias rdbm="bundle exec rails db:migrate"
+alias rdbd="bundle exec rails db:drop"
+alias rdbc="bundle exec rails db:create"
+alias rdbr="bundle exec rails db:rollback"
+alias rdbs="bundle exec rails db:setup; rails db:seed"
+alias rtdb="bin/rails db:environment:set RAILS_ENV=test; RAILS_ENV=test bundle exec rails db:drop db:create db:migrate db:reload_views"
+alias rs="bundle exec rails s -b 0.0.0.0 -p"
+alias rst="RAILS_ENV=test bundle exec rails s -b 0.0.0.0 -p"
+alias rc="bundle exec rails c"
+alias st="RAILS_ENV=test bundle exec rails db:seed"
+alias s="bundle exec rails db:seed"
+alias rb="bundle exec rubocop"
+alias rba="bundle exec rubocop -a"
+alias up="bin/up -d"
+alias down="bin/down"
+alias reek="reek --no-documentation"
+
+# JS/Yarn stuff
+alias y="yarn"
+alias ys="yarn start"
+alias yt="yarn test"
+alias yd="yarn dev"
+
+# Ember stuff
+alias es="ember s"
+alias eg="ember generate"
+alias ed="ember d"
+alias et="ember t -s"
+alias ei="ember install"
+
+# Docker
+alias dcu="docker-compose up -d"
+alias dcd="docker-compose down"
+alias dcr="docker-compose run"
+alias drm="docker rm"
+alias drmi="docker rmi"
+alias dcs="docker-compose start"
+alias da="docker attach"
+alias dcb="docker-compose build"
+alias up="bin/up -d"
+alias dd="bin/down"
+# RabbitMQ
+alias rabbit-clear="/usr/local/sbin/rabbitmqadmin -f tsv -q list queues name | while read queue; do /usr/local/sbin/rabbitmqadmin -q delete queue name=${queue}; done"
+
+
+# Heroku
+alias hr="heroku run"
+alias hrd="heroku run:detached"
+alias hl="heroku logs --tail --app"
+
+# randon shi*
+alias weather="curl wttr.in/"
+#######################################################################################################
+
+
+#Autoenv Sh**
+# source $(brew --prefix autoenv)/activate.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#######################################################################################################
+# NVM Sh**
+# export NVM_DIR="~/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export JAVA_HOME=$(/usr/libexec/java_home)
+
+#######################################################################################################
+
+# Add rbenv to PATH for scripting. Make sure this is the last PATH variable change.
+
+# eval "$(rbenv init - zsh)"
+# export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+# asdf
+
+. /usr/local/opt/asdf/asdf.sh
+. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash

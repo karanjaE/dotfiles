@@ -1,0 +1,12 @@
+# /Users/edwardkaranja/.config/tmuxinator/my-site.yml
+
+name: kwara_backup
+root: ~/projects/work/kwara/backup_restorer
+attach: true
+windows:
+  - backup_restorer:
+      layout: horizontal
+      panes:
+        - nvim
+        -
+

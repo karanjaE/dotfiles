@@ -1,0 +1,16 @@
+# /Users/edwardkaranja/.config/tmuxinator/my-site.yml
+
+name: my-site
+root: ~/projects/personalProjects/my-site
+attach: true
+windows:
+  - backend:
+      - cd api
+      - nvim
+  - servers:
+      layout: tiled
+      panes:
+        - cd api
+        - cd app && code .
+        - cd api && bundle exec rails s -p 3000
+        - cd app && yarn start

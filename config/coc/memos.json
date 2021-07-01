@@ -1,0 +1,1730 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1620738530103
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1620738530101
+    },
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd"
+      },
+      "expiry": 1620738530100
+    },
+    "/usr/local/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "200844a73c0f3a199b81f02bdece0d80812c4e8fe1acafbe33a8d9f7bf8ed84ea1d92968fa5742d05985d510e3a896941f9767d24bc00884a9b4ec4216a1443b"
+      },
+      "expiry": 1606945755763
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/shims/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "278d3ff000c677a8720db2a91e2273e1e9d28fea8f4c9aba44b04fe15bd6ed06e041726f1d570f762b802c40e897d8c04c35ba0653aa419fbabcf2ee7b5344fc",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/shims/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "c853ed8df0054ba116b776d21c36316de97d9fa795694362217dd76700b41b30c65ba6e528170940d2c8122dce4bd375a0388f2e86b6d63c579042d378656a11",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/shims/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "66a23e4fb64e022ea3011f8d9435b21670944cefa9d463adccbcf52943d301a680bff931e85f4eff105c8f39b8a0b71053a0725f6ce7806877fb63c97e0f00fa",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "4df8e4a30f2491dfa6de0f148367d6b361aeb07fe686afa80f0bd08f7f1a564e1b756025973c724082a6b243e72bd01d4e7ac7f5c49ad36f55047b7346871b28",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "4df8e4a30f2491dfa6de0f148367d6b361aeb07fe686afa80f0bd08f7f1a564e1b756025973c724082a6b243e72bd01d4e7ac7f5c49ad36f55047b7346871b28",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      }
+    ],
+    "/usr/local/opt/python/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/opt/python/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "0957c0bb672f89ac23fe1640ed94f9213d856f7ffc12d878da30241598233ea0ffc75cac92a57a6d3122520f1c03b0cf15ca0a1995518733310f81a7ad5b9f0e"
+      },
+      "expiry": 1580830600776
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "32dad895f4307545d867282b9c682979b548d4acbf7d3b0103effd484d9562241452308da7aef3a7d439e7c109b169f19f829d1f41155f61e075469809449983",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "4bb5a0eea814961486f06b5aeec7aafebfc83ab5c8c168bd7adc74b081b0541adcf2b1461eca318cb382e811f89ac31fc3808d0d8a3e97b3899aed1a55a77ed1",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "4bb5a0eea814961486f06b5aeec7aafebfc83ab5c8c168bd7adc74b081b0541adcf2b1461eca318cb382e811f89ac31fc3808d0d8a3e97b3899aed1a55a77ed1",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.0-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.0-final"
+      },
+      "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+      "fileHash": "4bb5a0eea814961486f06b5aeec7aafebfc83ab5c8c168bd7adc74b081b0541adcf2b1461eca318cb382e811f89ac31fc3808d0d8a3e97b3899aed1a55a77ed1",
+      "type": "Unknown"
+    },
+    "PipEnvInformation": [],
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit",
+        "hash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd-9efd5ca0a1ea0d83859d058fe4565140"
+      },
+      "expiry": 1620738530729
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-f5b651b9c4b75532b11ae83303c43d14"
+      },
+      "expiry": 1620738530731
+    },
+    "/usr/local/opt/python/bin/python3.7.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit",
+        "hash": "0957c0bb672f89ac23fe1640ed94f9213d856f7ffc12d878da30241598233ea0ffc75cac92a57a6d3122520f1c03b0cf15ca0a1995518733310f81a7ad5b9f0e-1289b4af4f2222206fd939f4ee3bdf31"
+      },
+      "expiry": 1580830600800
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.2-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.2-final"
+          },
+          "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd",
+          "type": "Unknown",
+          "displayName": "Python 3.9.2 64-bit"
+        }
+      },
+      "expiry": 1620738530759
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1620738530762
+    },
+    "/usr/local/opt/python/bin/python3.7.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "0957c0bb672f89ac23fe1640ed94f9213d856f7ffc12d878da30241598233ea0ffc75cac92a57a6d3122520f1c03b0cf15ca0a1995518733310f81a7ad5b9f0e",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/opt/python/bin/python3.7",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.5-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.5-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7",
+          "fileHash": "6b01e815d4414720b8641cf6daa29496fc9c57f0649483e6c2f95ff2c6db5302c10f50269e500faad49a44e95ef952776cbcf54de788c4d84d045d88211bd77c",
+          "type": "Unknown",
+          "cachedEntry": true,
+          "displayName": "Python 3.7.5 64-bit",
+          "__store": true
+        }
+      },
+      "expiry": 1580830600705
+    },
+    "ProposeLSBanner": false,
+    "/Users/edwardkaranja/projects/envs/vim/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/vim/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/vim/bin/..",
+        "fileHash": "6db9af310f81323a2fb1d5cf598aa788b319d58cea8d2fcba4e75fe51a49c6cf7c7a5d6a1794dcacc814f8c7e7626876873ac3682321c3b055ddcbf22e389512"
+      },
+      "expiry": 1580830600649
+    },
+    "/Users/edwardkaranja/projects/envs/vim/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/vim/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/vim/bin/..",
+        "fileHash": "0358e9d8fef8b22d80d4395b5be784a12556842c8f745a7b5abcc4df2914a8b164b19b574478e4321c1f95411e4a62f4cfb8eb1491f1f2be8256717dbac0538c"
+      },
+      "expiry": 1580830600650
+    },
+    "/Users/edwardkaranja/projects/envs/vim/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/vim/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/vim/bin/..",
+        "fileHash": "3d56a67b60d4f8a4131d68e3378a27f28a687232b43fb6996ddaddc5c4b751472977c51e6316b9c8244834859cb4fbaf4c07938c4afccd478012a0ab14ae5ec4"
+      },
+      "expiry": 1580830600651
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1620738530089
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1620738529985
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1620738530443
+    },
+    "/Users/edwardkaranja/projects/envs/vim/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit",
+        "hash": "3d56a67b60d4f8a4131d68e3378a27f28a687232b43fb6996ddaddc5c4b751472977c51e6316b9c8244834859cb4fbaf4c07938c4afccd478012a0ab14ae5ec4-940e11c0b84a0bc5bf32699a8873e8d5"
+      },
+      "expiry": 1580830600778
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-4bc3c9f5346452a4fe404c621ebcd443"
+      },
+      "expiry": 1620738530733
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-a9fb100b1ab04c53a774363838d4885e"
+      },
+      "expiry": 1620738530735
+    },
+    "/Users/edwardkaranja/projects/envs/vim/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "3d56a67b60d4f8a4131d68e3378a27f28a687232b43fb6996ddaddc5c4b751472977c51e6316b9c8244834859cb4fbaf4c07938c4afccd478012a0ab14ae5ec4",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/edwardkaranja/projects/envs/vim/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.6-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.6-final"
+          },
+          "sysPrefix": "/Users/edwardkaranja/projects/envs/vim/bin/..",
+          "fileHash": "3d56a67b60d4f8a4131d68e3378a27f28a687232b43fb6996ddaddc5c4b751472977c51e6316b9c8244834859cb4fbaf4c07938c4afccd478012a0ab14ae5ec4",
+          "type": "Unknown",
+          "displayName": "Python 3.7.6 64-bit"
+        }
+      },
+      "expiry": 1580830600788
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 3.8.2 64-bit"
+        }
+      },
+      "expiry": 1620738530764
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1620738530767
+    },
+    "/Users/edwardkaranja/projects/envs/my_site/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/my_site/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/my_site/bin/..",
+        "fileHash": "9b8a9eda744de3c5f521d324357cf3a6da07488115b1347d28c46498100cf08fe7de600252bbde9512d69b10cd12a55872d081f906a4170fd5e9e08b710896ce"
+      },
+      "expiry": 1591189002499
+    },
+    "/Users/edwardkaranja/projects/envs/my_site/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/my_site/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/my_site/bin/..",
+        "fileHash": "c689fcc1f066a84e75adb40c48285236aeb9faf4198b676817d0c56467ffb3d40150cc5ad0d4ee4d652cb12de8ce991bef08426e2cb77c2623ae5d198f1454fc"
+      },
+      "expiry": 1591189002498
+    },
+    "/Users/edwardkaranja/projects/envs/my_site/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/my_site/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/my_site/bin/..",
+        "fileHash": "b7ad451ad63ce9f9f667d375f7689c0746f0a0bac88b8319902b8b3000e555779f66ecf2926037e5cb6f6871f19fa2936139564176158929cb15b4d3d2f7255f"
+      },
+      "expiry": 1591189002552
+    },
+    "/Users/edwardkaranja/projects/envs/my_site/bin/python3.7.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit",
+        "hash": "9b8a9eda744de3c5f521d324357cf3a6da07488115b1347d28c46498100cf08fe7de600252bbde9512d69b10cd12a55872d081f906a4170fd5e9e08b710896ce-2ba1027a4723c39c03312e8e085b04ff"
+      },
+      "expiry": 1591189002610
+    },
+    "/Users/edwardkaranja/projects/envs/my_site/bin/python3.7.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9b8a9eda744de3c5f521d324357cf3a6da07488115b1347d28c46498100cf08fe7de600252bbde9512d69b10cd12a55872d081f906a4170fd5e9e08b710896ce",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/edwardkaranja/projects/envs/my_site/bin/python3.7",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.6-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.6-final"
+          },
+          "sysPrefix": "/Users/edwardkaranja/projects/envs/my_site/bin/..",
+          "fileHash": "9b8a9eda744de3c5f521d324357cf3a6da07488115b1347d28c46498100cf08fe7de600252bbde9512d69b10cd12a55872d081f906a4170fd5e9e08b710896ce",
+          "type": "Unknown",
+          "displayName": "Python 3.7.6 64-bit"
+        }
+      },
+      "expiry": 1591189002616
+    },
+    "/Users/edwardkaranja/projects/envs/api/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/api/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/api/bin/..",
+        "fileHash": "e4549c96d058279055f199448a1e549556213624ae2bc211d218eafef88bae0b26aa554a9ed90ff417031218dc529a286a0a6cb02601b531dfc84e63478952bb"
+      },
+      "expiry": 1594595618960
+    },
+    "/Users/edwardkaranja/projects/envs/api/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/api/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/api/bin/..",
+        "fileHash": "2a6e9bbc9682f9a3954649da7c84987c72125a993d20b04a8e4f86be4ef8f4ebb64bd344619d70d741a2068068919cc967875115017a8558a703943b109e7329"
+      },
+      "expiry": 1594595618976
+    },
+    "/Users/edwardkaranja/projects/envs/api/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/api/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/api/bin/..",
+        "fileHash": "145ff2fdd6bd3b1512346e6e3f4c6d91a2123838b55299fb7152b4e5a5e4d45c14382b0783b026dccf6149250acb97e4f26ade9303a0739ec5268d885473c4c4"
+      },
+      "expiry": 1594595618996
+    },
+    "/Users/edwardkaranja/projects/envs/api/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit",
+        "hash": "e4549c96d058279055f199448a1e549556213624ae2bc211d218eafef88bae0b26aa554a9ed90ff417031218dc529a286a0a6cb02601b531dfc84e63478952bb-a9560e610dcad10f0c6b00f792927ecc"
+      },
+      "expiry": 1594688965557
+    },
+    "/Users/edwardkaranja/projects/envs/api/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e4549c96d058279055f199448a1e549556213624ae2bc211d218eafef88bae0b26aa554a9ed90ff417031218dc529a286a0a6cb02601b531dfc84e63478952bb",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/edwardkaranja/projects/envs/api/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.6-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.6-final"
+          },
+          "sysPrefix": "/Users/edwardkaranja/projects/envs/api/bin/..",
+          "fileHash": "e4549c96d058279055f199448a1e549556213624ae2bc211d218eafef88bae0b26aa554a9ed90ff417031218dc529a286a0a6cb02601b531dfc84e63478952bb",
+          "type": "Unknown",
+          "displayName": "Python 3.7.6 64-bit"
+        }
+      },
+      "expiry": 1594595619102
+    },
+    "/Users/edwardkaranja/projects/envs/adt/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/adt/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/adt/bin/..",
+        "fileHash": "b3d0fdacbed995b32a717d592907c55c8c21f4ba3649cb2af7ca12fe81d3957fe916deb70d74054ec92674493dc10b74a7245191597d257c7960495f0dd9d4b1"
+      },
+      "expiry": 1606945755521
+    },
+    "/Users/edwardkaranja/projects/envs/adt/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/adt/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/adt/bin/..",
+        "fileHash": "5ca4c4c9f5e4f101ad802bdd7179a84d030e0380db181f784f8f7c749d9f3f1e3c724c11614735cc4a8a5ef17fc9495ef3ae204a4c9ea8e3b95cfa491896f884"
+      },
+      "expiry": 1606945755522
+    },
+    "/Users/edwardkaranja/projects/envs/adt/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/projects/envs/adt/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/projects/envs/adt/bin/..",
+        "fileHash": "7e8bb005665260c4fca5c85d7af1a65c2bb742c0546022512f3f953b9f8468ec40b212e2d5499781b9e7a75d224a33bb1fe1c2bb9953c7643219ccfd86428f4f"
+      },
+      "expiry": 1606945755523
+    },
+    "/Users/edwardkaranja/.asdf/shims/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/shims/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "278d3ff000c677a8720db2a91e2273e1e9d28fea8f4c9aba44b04fe15bd6ed06e041726f1d570f762b802c40e897d8c04c35ba0653aa419fbabcf2ee7b5344fc"
+      },
+      "expiry": 1620738530429
+    },
+    "/Users/edwardkaranja/.asdf/shims/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/shims/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "c853ed8df0054ba116b776d21c36316de97d9fa795694362217dd76700b41b30c65ba6e528170940d2c8122dce4bd375a0388f2e86b6d63c579042d378656a11"
+      },
+      "expiry": 1620738530428
+    },
+    "/Users/edwardkaranja/projects/envs/adt/bin/python3.7.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit",
+        "hash": "5ca4c4c9f5e4f101ad802bdd7179a84d030e0380db181f784f8f7c749d9f3f1e3c724c11614735cc4a8a5ef17fc9495ef3ae204a4c9ea8e3b95cfa491896f884-b0215f6c2e6467c5c7695ba54a077f9b"
+      },
+      "expiry": 1606844153691
+    },
+    "/Users/edwardkaranja/projects/envs/adt/bin/python3.7.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5ca4c4c9f5e4f101ad802bdd7179a84d030e0380db181f784f8f7c749d9f3f1e3c724c11614735cc4a8a5ef17fc9495ef3ae204a4c9ea8e3b95cfa491896f884",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/edwardkaranja/projects/envs/adt/bin/python3.7",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.6-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.6-final"
+          },
+          "sysPrefix": "/Users/edwardkaranja/projects/envs/adt/bin/..",
+          "fileHash": "5ca4c4c9f5e4f101ad802bdd7179a84d030e0380db181f784f8f7c749d9f3f1e3c724c11614735cc4a8a5ef17fc9495ef3ae204a4c9ea8e3b95cfa491896f884",
+          "type": "Unknown",
+          "displayName": "Python 3.7.6 64-bit"
+        }
+      },
+      "expiry": 1606844153697
+    },
+    "/Users/edwardkaranja/.asdf/shims/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/shims/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "66a23e4fb64e022ea3011f8d9435b21670944cefa9d463adccbcf52943d301a680bff931e85f4eff105c8f39b8a0b71053a0725f6ce7806877fb63c97e0f00fa"
+      },
+      "expiry": 1620738530427
+    },
+    "/usr/local/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "4df8e4a30f2491dfa6de0f148367d6b361aeb07fe686afa80f0bd08f7f1a564e1b756025973c724082a6b243e72bd01d4e7ac7f5c49ad36f55047b7346871b28"
+      },
+      "expiry": 1620738530092
+    },
+    "/Users/edwardkaranja/.asdf/shims/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.0 64-bit",
+        "hash": "278d3ff000c677a8720db2a91e2273e1e9d28fea8f4c9aba44b04fe15bd6ed06e041726f1d570f762b802c40e897d8c04c35ba0653aa419fbabcf2ee7b5344fc-1230a0930ad296fea2cd2338fd938c22"
+      },
+      "expiry": 1620738530722
+    },
+    "/Users/edwardkaranja/.asdf/shims/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "278d3ff000c677a8720db2a91e2273e1e9d28fea8f4c9aba44b04fe15bd6ed06e041726f1d570f762b802c40e897d8c04c35ba0653aa419fbabcf2ee7b5344fc",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/edwardkaranja/.asdf/shims/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.0-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 0,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.0-final"
+          },
+          "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+          "fileHash": "278d3ff000c677a8720db2a91e2273e1e9d28fea8f4c9aba44b04fe15bd6ed06e041726f1d570f762b802c40e897d8c04c35ba0653aa419fbabcf2ee7b5344fc",
+          "type": "Unknown",
+          "displayName": "Python 3.9.0 64-bit"
+        }
+      },
+      "expiry": 1620738530756
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd",
+      "type": "Unknown",
+      "displayName": "Python 3.9.2 64-bit"
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.9.2 64-bit"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "9036c3185d9ec25876ce23a6490b67098d404c8a213f6dedd0cc17f28b054818ef563bf27eca8bc68dfffc7942748119a8949f3edf8886ac06219622d01175bd",
+      "type": "Unknown",
+      "displayName": "Python 3.9.2 64-bit"
+    },
+    "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "4bb5a0eea814961486f06b5aeec7aafebfc83ab5c8c168bd7adc74b081b0541adcf2b1461eca318cb382e811f89ac31fc3808d0d8a3e97b3899aed1a55a77ed1"
+      },
+      "expiry": 1620738530447
+    },
+    "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+        "fileHash": "32dad895f4307545d867282b9c682979b548d4acbf7d3b0103effd484d9562241452308da7aef3a7d439e7c109b169f19f829d1f41155f61e075469809449983"
+      },
+      "expiry": 1620738530444
+    },
+    "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.0 64-bit",
+        "hash": "32dad895f4307545d867282b9c682979b548d4acbf7d3b0103effd484d9562241452308da7aef3a7d439e7c109b169f19f829d1f41155f61e075469809449983-e83f13e62f9ce3ea1cd264f97aa2da70"
+      },
+      "expiry": 1620738530736
+    },
+    "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "32dad895f4307545d867282b9c682979b548d4acbf7d3b0103effd484d9562241452308da7aef3a7d439e7c109b169f19f829d1f41155f61e075469809449983",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/edwardkaranja/.asdf/installs/python/3.9.0/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.0-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 0,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.0-final"
+          },
+          "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+          "fileHash": "32dad895f4307545d867282b9c682979b548d4acbf7d3b0103effd484d9562241452308da7aef3a7d439e7c109b169f19f829d1f41155f61e075469809449983",
+          "type": "Unknown",
+          "displayName": "Python 3.9.0 64-bit"
+        }
+      },
+      "expiry": 1620738530770
+    }
+  },
+  "coc-python|/Users/karanja/projects/work/kwara/backend": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:a47bae4742ded4b4d0af828fbf230883": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a47bae4742ded4b4d0af828fbf230883": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/karanja/projects/work/kwara/backend": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python/bin/python3.7",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.5-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "6b01e815d4414720b8641cf6daa29496fc9c57f0649483e6c2f95ff2c6db5302c10f50269e500faad49a44e95ef952776cbcf54de788c4d84d045d88211bd77c",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/edwardkaranja/Desktop/vim-convert": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:357b98926db81d4bca40d1a59f12922f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:357b98926db81d4bca40d1a59f12922f": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/edwardkaranja/Desktop/vim-convert": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python/bin/python3.7",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.5-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "6b01e815d4414720b8641cf6daa29496fc9c57f0649483e6c2f95ff2c6db5302c10f50269e500faad49a44e95ef952776cbcf54de788c4d84d045d88211bd77c",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/edwardkaranja/projects/personalProjects/my-site/api_flask": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:15771db077613cd74b69d36b62a78b77": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:15771db077613cd74b69d36b62a78b77": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/edwardkaranja/projects/personalProjects/my-site/api_flask": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.6-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.6-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7",
+      "fileHash": "d5e375f8329bf03487f5343fc80931830c39c9395172f01fe118300006a1b901f593fdf1949c61978eb62f5136803975cc366b153557d0cd9e3d33f3ccc7b35a",
+      "type": "Unknown",
+      "displayName": "Python 3.7.6 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/edwardkaranja/projects/tuts/adt": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:690842948f142159ad64bb36b36cbc7a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:690842948f142159ad64bb36b36cbc7a": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/edwardkaranja/.asdf/shims/python"
+  },
+  "coc-python|/Users/edwardkaranja/projects/personalProjects/coding_challenges": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7b62508d3ded06919e5c662be6cda840": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7b62508d3ded06919e5c662be6cda840": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/edwardkaranja/projects/personalProjects/coding_challenges": {
+      "architecture": 3,
+      "path": "/Users/edwardkaranja/.asdf/shims/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.0-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.0-final"
+      },
+      "sysPrefix": "/Users/edwardkaranja/.asdf/installs/python/3.9.0",
+      "fileHash": "e8c6075a66ff017ec4eff224dac87858fda4713aaaa6582dd78a8e392e18e058a0689da95be71dba82ccafa0bb7262fc0cf8ff86502064b1e35719876990ce11",
+      "type": "Unknown",
+      "displayName": "Python 3.9.0 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  }
+}

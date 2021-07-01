@@ -1,0 +1,16 @@
+# /Users/edwardkaranja/.config/tmuxinator/kwara.yml
+
+name: kwara_member
+root: ~/projects/work/kwara/backend-public-api
+attach: true
+windows:
+  - editor: nvim
+    # Synchronize all panes of this window, can be enabled before or after the pane commands run.
+    # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
+    # synchronize: after
+  - servers:
+    layout: main-vertical
+    panes:
+      -
+      -  bundle exec rails s -p 3001 -b 0.0.0.0
+      - bundle exec guard

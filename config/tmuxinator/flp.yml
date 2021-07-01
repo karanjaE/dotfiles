@@ -1,0 +1,16 @@
+# /Users/edwardkaranja/.config/tmuxinator/my-site.yml
+
+name: flp
+root: ~/projects/work/kwara/flp
+attach: true
+windows:
+  - code:
+      - nvim
+  - cmds:
+      layout: tiled
+      panes:
+        -
+        - bundle exec rails c
+        - bundle exec rails s -p 3001
+        - bin/webpack-dev-server
+

@@ -1,0 +1,28 @@
+# /Users/edwardkaranja/.config/tmuxinator/kwara.yml
+
+name: kwara_member
+root: ~/projects/work/kwara/backend-member
+attach: true
+windows:
+  - editor:
+    - nvim
+
+  - BE_servers:
+      layout: tiled
+      panes:
+        - bundle exec rails s -p 3002
+        -
+        - bundle exec rails c
+        -
+
+  - mambu:
+      layout: main-horizontal
+      panes:
+        - cd ../mambu && nvim
+        - cd ../mambu
+
+  - webapp:
+      layout: tiled
+      panes:
+        - cd ../webapp && nvim
+        - cd ../webapp && yarn start:member

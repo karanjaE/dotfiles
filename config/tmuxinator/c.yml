@@ -1,0 +1,11 @@
+# /Users/edwardkaranja/.config/tmuxinator/adt.yml
+
+name: c
+root: ~/projects/personalProjects/coding_challenges
+attach: true
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - nvim
+        -

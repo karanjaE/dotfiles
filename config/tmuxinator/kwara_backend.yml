@@ -1,0 +1,28 @@
+# /Users/edwardkaranja/.config/tmuxinator/kwara.yml
+
+name: kwara_backend
+root: ~/projects/work/kwara/backend
+attach: true
+windows:
+  - editor:
+    - nvim
+
+  - backend:
+      layout: tiled
+      panes:
+        - bundle exec rails s -p 3000
+        - cx ssh -s 'CORE Backend' -e staging web0
+        - bundle exec sidekiq
+        -
+
+  - mambu:
+      layout: main-horizontal
+      panes:
+        - cd ../mambu && nvim
+        - cd ../mambu
+
+  - webapp:
+      layout: tiled
+      panes:
+        - cd ../webapp && nvim
+        - cd ../webapp && yarn start:sacco

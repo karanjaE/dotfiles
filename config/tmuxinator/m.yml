@@ -1,0 +1,8 @@
+# /Users/edwardkaranja/.config/tmuxinator/my-site.yml
+
+name: m
+root: ~/projects/personalProjects/my
+attach: true
+windows:
+  - code:
+      - cd my && nvim

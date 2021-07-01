@@ -1,0 +1,16 @@
+# /Users/edwardkaranja/.config/tmuxinator/my-site.yml
+
+name: kiota
+root: ~/projects/personalProjects/kiota
+attach: true
+windows:
+  - backend:
+      - ~/projects/personalProjects/kiota/tawi
+      - nvim
+  - servers:
+      layout: tiled
+      panes:
+        - cd tawi
+        - cd ~/personalProjects/kiota/kiota-prototype && code .
+        - cd tawi && bundle exec rails s -p 3000
+        - ~/personalProjects/kiota/kiota-prototype && yarn start

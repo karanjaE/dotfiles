@@ -1,0 +1,11 @@
+# /Users/edwardkaranja/.config/tmuxinator/adt.yml
+
+name: adt
+root: ~/projects/tuts/adt
+attach: true
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - nvim
+        -

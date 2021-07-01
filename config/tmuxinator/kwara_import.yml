@@ -1,0 +1,15 @@
+# /Users/edwardkaranja/.config/tmuxinator/my-site.yml
+
+name: kwara_import
+root: ~/projects/work/kwara/data-import
+attach: true
+windows:
+  - code:
+      - ~/projects/work/kwara/data-import
+      - nvim
+  - cmds:
+      layout: vertical
+      panes:
+        -
+        -
+
